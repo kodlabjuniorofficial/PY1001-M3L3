@@ -12,7 +12,7 @@ class Assistant:
 
     # 1. GÖREV: 'search_info' metodunu tanımlayın.
     # Bu metod 'topic' (konu) parametresini almalı.
-    def search_info(self, topic):
+    def ..... (self,):
         formatted_topic = topic.replace(" ", "_")
         url = f"https://tr.wikipedia.org/api/rest_v1/page/summary/{formatted_topic}"
         headers = {'User-Agent': 'BilgeBot/1.0'}
